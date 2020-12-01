@@ -13,11 +13,8 @@
 /public/images/products/**
 !public/images/products/.gitkeep
 
-/public/images/blogs/**
-!public/images/blogs/.gitkeep
-
-/public/images/orderImages/**
-!public/images/orderImages/.gitkeep
+/public/images/category/**
+!public/images/category/.gitkeep
 
 # misc
 .DS_Store
