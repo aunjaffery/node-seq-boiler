@@ -1,0 +1,30 @@
+{
+  "name": "dhobi-api",
+  "version": "1.0.0",
+  "description": "Api server for Dhobi Application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "nodemon --require dotenv/config app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aun Jaffery",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-handlebars": "^5.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.16",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
